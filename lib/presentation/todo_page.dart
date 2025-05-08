@@ -5,6 +5,7 @@ class TodoPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final _key = GlobalKey<FormState>();
     return Scaffold();
   }
 }
