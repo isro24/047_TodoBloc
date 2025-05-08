@@ -73,6 +73,10 @@ class TodoPage extends StatelessWidget {
                             return null;
                           },
                         )
+                      ),
+                      FilledButton(
+                        onPressed: (){}, 
+                        child: Text('Tambah')
                       )
                     ]
                   ))
